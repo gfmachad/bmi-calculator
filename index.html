@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>BMI Calculator</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="title">BMI Calculator</div>
+
+        <div class="input">
+          <label for="">Name</label>
+          <input type="text" id="name" />
+        </div>
+
+        <div class="input">
+          <label for="">Height</label>
+          <input type="number" id="height" />
+        </div>
+
+        <div class="input">
+          <label for="">Weight</label>
+          <input type="number" id="weight" />
+        </div>
+
+        <div class="submit">
+          <input type="submit" value="Calcule" id="calcule" />
+        </div>
+
+        <div class="result" id="results">
+          height = centimeters | Weight = kilograms
+        </div>
+        <br />
+        <div class="footer">
+          <a href="https://www.instagram.com/gfmachad/">@gfmachad</a>
+        </div>
+      </div>
+    </main>
+    <script src="./imc.js"></script>
+  </body>
+</html>
